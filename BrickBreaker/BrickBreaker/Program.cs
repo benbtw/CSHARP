@@ -1,0 +1,3 @@
+﻿using BrickBreaker;
+
+new Game();

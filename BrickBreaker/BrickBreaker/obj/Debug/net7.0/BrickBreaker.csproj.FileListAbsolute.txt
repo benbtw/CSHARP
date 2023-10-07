@@ -1,0 +1,14 @@
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\bin\Debug\net7.0\BrickBreaker.exe
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\bin\Debug\net7.0\BrickBreaker.deps.json
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\bin\Debug\net7.0\BrickBreaker.runtimeconfig.json
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\bin\Debug\net7.0\BrickBreaker.dll
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\bin\Debug\net7.0\BrickBreaker.pdb
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\BrickBreaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\BrickBreaker.AssemblyInfoInputs.cache
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\BrickBreaker.AssemblyInfo.cs
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\BrickBreaker.csproj.CoreCompileInputs.cache
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\BrickBreaker.dll
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\refint\BrickBreaker.dll
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\BrickBreaker.pdb
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\BrickBreaker.genruntimeconfig.cache
+C:\Users\newmi\OneDrive\Documents\C#\BrickBreaker\BrickBreaker\obj\Debug\net7.0\ref\BrickBreaker.dll
