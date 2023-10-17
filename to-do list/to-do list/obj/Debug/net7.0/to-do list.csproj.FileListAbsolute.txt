@@ -1,0 +1,31 @@
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\appsettings.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\to-do list.staticwebassets.runtime.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\to-do list.exe
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\to-do list.deps.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\to-do list.runtimeconfig.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\to-do list.dll
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\bin\Debug\net7.0\to-do list.pdb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.AssemblyInfoInputs.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.AssemblyInfo.cs
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.csproj.CoreCompileInputs.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.RazorAssemblyInfo.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.RazorAssemblyInfo.cs
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\staticwebassets\msbuild.to-do list.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\staticwebassets\msbuild.build.to-do list.props
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.to-do list.props
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.to-do list.props
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\scopedcss\bundle\to-do list.styles.css
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\scopedcss\projectbundle\to-do list.bundle.scp.css
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.dll
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\refint\to-do list.dll
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.pdb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\to-do list.genruntimeconfig.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\to-do list\to-do list\obj\Debug\net7.0\ref\to-do list.dll
