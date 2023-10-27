@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj": {}
+    "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\CSHARP\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj": {
+    "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\CSHARP\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj",
+        "projectUniqueName": "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\CSHARP\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj",
         "projectName": "BrickBreaker",
-        "projectPath": "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj",
+        "projectPath": "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\CSHARP\\BrickBreaker\\BrickBreaker\\BrickBreaker.csproj",
         "packagesPath": "C:\\Users\\newmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\BrickBreaker\\BrickBreaker\\obj\\",
+        "outputPath": "C:\\Users\\newmi\\OneDrive\\Documents\\C#\\CSHARP\\BrickBreaker\\BrickBreaker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

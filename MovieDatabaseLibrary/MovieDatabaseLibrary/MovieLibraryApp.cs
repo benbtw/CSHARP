@@ -19,6 +19,7 @@ namespace MovieDatabaseLibrary
 
         public void MainMenu()
         {
+            Console.Clear();
             Console.WriteLine("-------------------");
             Console.WriteLine("|                 |");
             Console.WriteLine("|  Movie Library  |");
@@ -56,27 +57,108 @@ namespace MovieDatabaseLibrary
 
         private void MovieList()
         {
-            Console.WriteLine("movie list");
+            Console.Clear(); // ASC or DESC
+            db.ReadFromTable("SELECT * FROM MOVIES ORDER BY Score DESC");
         }
 
         private void MovieSearch()
         {
-            Console.WriteLine("movie search");
+            Console.Clear();
+            Console.WriteLine("What movie are you searchin for?");
+            Console.WriteLine("Search with either Title, Year, Director, or Score: ");
+            input = Console.ReadLine();
+            switch (input)
+            {
+                case "Title":
+                    Console.WriteLine("Enter the Title: ");
+                    input = Console.ReadLine();
+                    db.ReadFromTable($"SELECT * FROM MOVIES WHERE Title = '{input}'");
+                    break;
+                case "Year":
+                    Console.WriteLine("Enter the Year: ");
+                    input = Console.ReadLine();
+                    db.ReadFromTable($"SELECT * FROM MOVIES WHERE Year = {input}");
+                    break;
+                case "Director":
+                    Console.WriteLine("Enter the Director: ");
+                    input = Console.ReadLine();
+                    db.ReadFromTable($"SELECT * FROM MOVIES WHERE Director = '{input}'");
+                    break;
+                case "Score":
+                    Console.WriteLine("Enter the Score: ");
+                    input = Console.ReadLine();
+                    db.ReadFromTable($"SELECT * FROM MOVIES WHERE Score = {input}");
+                    break;
+            }
+            Thread.Sleep(1000);
+            MainMenu();
         }
 
         private void AddMovie()
         {
-            Console.WriteLine("add movie");
+            Console.Clear();
+            string title, year, director, score;
+            Console.WriteLine("Enter the Title: ");
+            title = Console.ReadLine();
+            Console.WriteLine("Enter the Year: ");
+            year = Console.ReadLine();
+            Console.WriteLine("Enter the Director: ");
+            director = Console.ReadLine();
+            Console.WriteLine("Enter the Score: ");
+            score = Console.ReadLine();
+            db.ExecuteStatement($"insert into movies values (" +
+                $"'{title}', " +
+                $"{Int32.Parse(year)}, " +
+                $"'{director}', " +
+                $"{float.Parse(score)});");
+            Thread.Sleep(1000);
+            MainMenu();
         }
 
         private void EditMovie()
         {
-            Console.WriteLine("edit movie");
+            Console.Clear();
+            string change, new_val;
+            Console.WriteLine("What is the title of the movie you want to edit?");
+            input = Console.ReadLine();
+            Console.WriteLine("What would you like to edit? (Title, Year, Director, or Score)");
+            change = Console.ReadLine();
+            switch (change)
+            {
+                case "Title":
+                    Console.WriteLine("Enter the New Title: ");
+                    new_val = Console.ReadLine();
+                    db.ExecuteStatement($"update movies set Title = '{new_val}' where Title = '{input}';");;
+                    break;
+                case "Year":
+                    Console.WriteLine("Enter the New Year: ");
+                    new_val = Console.ReadLine();
+                    db.ExecuteStatement($"update movies set Year = {Int32.Parse(new_val)} where Title = '{input}';");
+                    break;
+                case "Director":
+                    Console.WriteLine("Enter the New Director: ");
+                    new_val = Console.ReadLine();
+                    db.ExecuteStatement($"update movies set Director = '{new_val}' where Title = '{input}';");
+                    break;
+                case "Score":
+                    Console.WriteLine("Enter the New Score: ");
+                    new_val = Console.ReadLine();
+                    db.ExecuteStatement($"update movies set Score = {float.Parse(new_val)} where Title = '{input}';");
+                    break;
+            }
+            Thread.Sleep(1000);
+            MainMenu();
+
         }
 
         private void DeleteMovie()
         {
-            Console.WriteLine("delete movie");
+            Console.Clear();
+            Console.WriteLine("What is the Title of the movie you want to delete?");
+            input = Console.ReadLine();
+            db.ExecuteStatement($"DELETE FROM movies WHERE Title = '{input}';");
+            Thread.Sleep(1000);
+            MainMenu();
         }
     }
 }
