@@ -1,0 +1,63 @@
+﻿<Window
+    x:Class="LWPDF.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:LWPDF"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="1280"
+    Height="720"
+    Background="#242526"
+    MouseLeftButtonDown="Window_MouseLeftButtonDown"
+    ResizeMode="CanResizeWithGrip"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+            CaptionHeight="0"
+            CornerRadius="0"
+            GlassFrameThickness="0" />
+    </WindowChrome.WindowChrome>
+    <Grid Margin="1100,10,10,670">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19.167" />
+            <RowDefinition Height="20.833" />
+        </Grid.RowDefinitions>
+        <StackPanel
+            Grid.RowSpan="2"
+            HorizontalAlignment="Right"
+            Orientation="Horizontal">
+            <Button
+                x:Name="btnMin"
+                Width="60"
+                Height="25"
+                Background="#242526"
+                BorderBrush="Transparent"
+                Click="btnMin_Click"
+                Content="_"
+                FontSize="15"
+                Foreground="White" />
+            <Button
+                x:Name="btnMax"
+                Width="60"
+                Height="25"
+                Background="#242526"
+                BorderBrush="Transparent"
+                Click="btnMax_Click"
+                Content="🗖"
+                FontSize="15"
+                Foreground="White" />
+            <Button
+                x:Name="btnClose"
+                Width="60"
+                Height="25"
+                Background="#242526"
+                BorderBrush="Transparent"
+                Click="btnClose_Click"
+                Content="X"
+                FontSize="15"
+                Foreground="White" />
+        </StackPanel>
+    </Grid>
+</Window>
