@@ -20,14 +20,14 @@
                 FontSize="32"
                 HorizontalOptions="Center"
                 SemanticProperties.HeadingLevel="Level1"
-                Text="Hello, .NET MAUI" />
+                Text="Hello, World" />
 
             <Label
                 FontSize="18"
                 HorizontalOptions="Center"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 SemanticProperties.HeadingLevel="Level2"
-                Text="Welcome to .NET Multi-platform App UI" />
+                Text="Welcome to .NET" />
 
             <Button
                 x:Name="CounterBtn"

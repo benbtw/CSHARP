@@ -39,3 +39,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/newmi/OneDrive/Documents/C\#/CSHARP/MauiApp1/MauiApp1/Views/AddContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.AddContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddContactPage.xaml
+
+[C:/Users/newmi/OneDrive/Documents/C\#/CSHARP/MauiApp1/MauiApp1/Views/ContactsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.ContactsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContactsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContactsPage.xaml
+
+[C:/Users/newmi/OneDrive/Documents/C\#/CSHARP/MauiApp1/MauiApp1/Views/EditContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.EditContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditContactPage.xaml

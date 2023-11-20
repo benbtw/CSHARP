@@ -1,0 +1,16 @@
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\bin\Debug\net7.0-windows\InventoryManager.exe
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\bin\Debug\net7.0-windows\InventoryManager.deps.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\bin\Debug\net7.0-windows\InventoryManager.runtimeconfig.json
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\bin\Debug\net7.0-windows\InventoryManager.dll
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\bin\Debug\net7.0-windows\InventoryManager.pdb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.Form1.resources
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.csproj.GenerateResource.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.AssemblyInfoInputs.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.AssemblyInfo.cs
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.csproj.CoreCompileInputs.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.dll
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\refint\InventoryManager.dll
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.pdb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\InventoryManager.genruntimeconfig.cache
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\InventoryManager\InventoryManager\obj\Debug\net7.0-windows\ref\InventoryManager.dll

@@ -24,3 +24,5 @@ C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0\TopDown2D.pdb
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0\TopDown2D.genruntimeconfig.cache
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0\ref\TopDown2D.dll
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\Idle.xnb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\Walk.xnb

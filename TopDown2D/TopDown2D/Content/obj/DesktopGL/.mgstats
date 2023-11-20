@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/Idle.png","C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/bin/DesktopGL/Idle.xnb","TextureProcessor","Texture2DContent",3435,4181,0.0961748
+"C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/player-idle-1.png","C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/bin/DesktopGL/player-idle-1.xnb","TextureProcessor","Texture2DContent",1312,4309,0.1241025
+"C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/Walk.png","C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/bin/DesktopGL/Walk.xnb","TextureProcessor","Texture2DContent",4202,16469,0.096874
