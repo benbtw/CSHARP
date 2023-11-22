@@ -6,9 +6,13 @@
   <SourceFiles>
     <File>C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/Idle.png</File>
     <File>C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/player-idle-1.png</File>
+    <File>C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/SpriteSheet.png</File>
+    <File>C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/TilesetNature.png</File>
     <File>C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/Walk.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
