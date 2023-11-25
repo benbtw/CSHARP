@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/SpriteSheet.png</SourceFile>
-  <SourceTime>2023-11-14T08:19:54.137543-06:00</SourceTime>
+  <SourceTime>2023-11-14T08:19:56.6010278-06:00</SourceTime>
   <DestFile>C:/Users/newmi/OneDrive/Documents/C#/CSHARP/TopDown2D/TopDown2D/Content/bin/DesktopGL/SpriteSheet.xnb</DestFile>
-  <DestTime>2023-11-22T11:13:49.3933814-06:00</DestTime>
+  <DestTime>2023-11-22T18:59:39.6425789-06:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T06:44:56-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

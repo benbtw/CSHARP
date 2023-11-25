@@ -10,6 +10,7 @@ namespace TopDown2D
         private SpriteBatch _spriteBatch;
 
         private Player player;
+        private TileMap tilemap;
 
         public Game1()
         {
@@ -17,16 +18,16 @@ namespace TopDown2D
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
 
-            _graphics.PreferredBackBufferWidth = 480;
-            _graphics.PreferredBackBufferHeight = 320;
-            _graphics.ApplyChanges();
-
             player = new Player();
+            tilemap = new TileMap();
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            _graphics.PreferredBackBufferWidth = 1280;
+            _graphics.PreferredBackBufferHeight = 704;
+            _graphics.ApplyChanges();
 
             base.Initialize();
         }
@@ -36,6 +37,7 @@ namespace TopDown2D
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            tilemap.loadContent(this);
             player.loadContent(this);
         }
 
@@ -45,7 +47,7 @@ namespace TopDown2D
                 Exit();
 
             // TODO: Add your update logic here
-            player.Update(gameTime);
+            player.Update(gameTime, tilemap.colTiles);
 
             base.Update(gameTime);
         }
@@ -53,9 +55,10 @@ namespace TopDown2D
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
             // TODO: Add your drawing code here
-            _spriteBatch.Begin();
+            _spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.None, RasterizerState.CullCounterClockwise);
+
+            tilemap.Draw(gameTime, _spriteBatch);
 
             player.Draw(gameTime, _spriteBatch);
 

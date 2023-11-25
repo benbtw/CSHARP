@@ -1,4 +1,3 @@
-C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\player-idle-1.xnb
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\TopDown2D.exe
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\TopDown2D.deps.json
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\TopDown2D.runtimeconfig.json
@@ -24,7 +23,8 @@ C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0\TopDown2D.pdb
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0\TopDown2D.genruntimeconfig.cache
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\obj\Debug\net6.0\ref\TopDown2D.dll
-C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\Idle.xnb
-C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\Walk.xnb
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\SpriteSheet.xnb
 C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\TilesetNature.xnb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\TilesetFloor.xnb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\TilesetHouse.xnb
+C:\Users\newmi\OneDrive\Documents\C#\CSHARP\TopDown2D\TopDown2D\bin\Debug\net6.0\Content\TilesetWater.xnb
