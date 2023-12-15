@@ -1,0 +1,116 @@
+﻿<Window
+    x:Class="BankingApp.BankAppWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:BankingApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="BankAppWindow"
+    Width="800"
+    Height="450"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+            CaptionHeight="0"
+            CornerRadius="0"
+            GlassFrameThickness="0" />
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="600" />
+        </Grid.ColumnDefinitions>
+
+        <!--  nav bar  -->
+        <StackPanel Grid.Column="0" Background="MediumPurple">
+            <TextBlock Height="100" />
+            <Button
+                Width="180"
+                Content="Dashboard"
+                Style="{StaticResource navBTNS}" />
+            <TextBlock Height="30" />
+            <!--  overview/dashboard  -->
+            <Button
+                Width="180"
+                Content="Deposit"
+                Style="{StaticResource navBTNS}" />
+            <TextBlock Height="30" />
+            <!--  deposit  -->
+            <Button
+                Width="180"
+                Content="Send Money"
+                Style="{StaticResource navBTNS}" />
+            <!--  withdraw  -->
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Orientation="Horizontal">
+            <Frame x:Name="Main" />
+            <Button Margin="50,0,0,200" Style="{StaticResource cards}" />
+            <Button Margin="100,0,0,200" Style="{StaticResource cards}" />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Orientation="Vertical">
+            <ListView
+                x:Name="Transactions"
+                Width="302"
+                Height="150"
+                Margin="0,290,0,0">
+                <ListViewItem
+                    Padding="0,15,0,0"
+                    Content="-$204.90"
+                    Foreground="Red" />
+                <ListViewItem
+                    Padding="0,15,0,0"
+                    Content="$502.03"
+                    Foreground="Green" />
+                <ListViewItem
+                    Padding="0,15,0,0"
+                    Content="$604.23"
+                    Foreground="Green" />
+                <ListViewItem
+                    Padding="0,15,0,0"
+                    Content="-$903.52"
+                    Foreground="Red" />
+            </ListView>
+        </StackPanel>
+        <Label
+            Grid.Column="1"
+            Margin="244,241,244,174"
+            Content="Transactions"
+            FontSize="17"
+            Foreground="MediumPurple" />
+        <Label
+            Grid.Column="1"
+            Margin="68,50,384,361"
+            Content="Checking Account"
+            FontSize="15"
+            Foreground="White" />
+        <Label
+            Grid.Column="1"
+            Margin="364,50,112,365"
+            Content="Savings Account"
+            FontSize="15"
+            Foreground="White" />
+        <Label
+            x:Name="savings_bal"
+            Grid.Column="1"
+            Margin="364,76,51,296"
+            Content="200.45"
+            FontSize="60"
+            Foreground="White" />
+        <Label
+            x:Name="checking_bal"
+            Grid.Column="1"
+            Margin="68,76,332,296"
+            Content="200.45"
+            FontSize="60"
+            Foreground="White" />
+        <Button
+            x:Name="closeBTN"
+            Grid.Column="1"
+            Margin="562,5,10,415"
+            Click="closeBTN_Click"
+            Style="{StaticResource closeBTN}" />
+    </Grid>
+</Window>
