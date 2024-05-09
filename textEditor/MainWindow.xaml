@@ -1,0 +1,206 @@
+﻿<Window
+    x:Class="textEditor.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:textEditor"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Text Editor"
+    Width="1000"
+    Height="720"
+    Background="#131313"
+    MouseLeftButtonDown="Window_MouseLeftButtonDown"
+    ResizeMode="CanResizeWithGrip"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+            CaptionHeight="0"
+            CornerRadius="0"
+            GlassFrameThickness="0" />
+    </WindowChrome.WindowChrome>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="explorCol" Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!--  StackPanel for Window Bar Buttons  -->
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="1"
+            Margin="10,-15,10,0"
+            HorizontalAlignment="Right"
+            Orientation="Horizontal">
+            <Button
+                x:Name="btnMin"
+                Width="60"
+                Height="25"
+                Margin="0,0,10,0"
+                Click="btnMin_Click"
+                Content="_"
+                FontSize="15"
+                Style="{StaticResource trBtns}" />
+            <Button
+                x:Name="btnMax"
+                Width="60"
+                Height="25"
+                Margin="0,0,10,0"
+                Click="btnMax_Click"
+                Content="🗖"
+                FontSize="15"
+                Style="{StaticResource trBtns}" />
+            <Button
+                x:Name="btnClose"
+                Width="60"
+                Height="25"
+                Click="btnClose_Click"
+                Content="X"
+                FontSize="15"
+                Style="{StaticResource trBtns}" />
+        </StackPanel>
+
+        <!--  StackPanel for File Explorer and Terminal  -->
+        <StackPanel
+            x:Name="helperBTNs"
+            Grid.Row="0"
+            Height="50"
+            Margin="10,-5,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Orientation="Horizontal">
+            <Button
+                x:Name="btnFolder"
+                Width="60"
+                Height="25"
+                Margin="0,0,0,10"
+                Click="btnFolder_Click"
+                FontSize="15"
+                Style="{StaticResource trBtns}">
+                <StackPanel>
+                    <Image
+                        Height="20"
+                        Source="Icons/file-folder-1.png"
+                        Stretch="Uniform" />
+                </StackPanel>
+            </Button>
+            <Button
+                x:Name="btnTerminal"
+                Width="60"
+                Height="25"
+                Margin="5,-10,0,0"
+                FontSize="15"
+                Style="{StaticResource trBtns}">
+                <StackPanel>
+                    <Image
+                        Height="20"
+                        Source="Icons/terminalicon.png"
+                        Stretch="Uniform" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+        <TabControl
+            x:Name="tabControl"
+            Grid.Column="1"
+            Height="30"
+            Margin="10,0,0,-15"
+            VerticalAlignment="Bottom"
+            Background="#131313"
+            BorderBrush="#131313"
+            KeyDown="TabControl_KeyDown"
+            SelectionChanged="TabControl_SelectionChanged">
+            <TabControl.Resources>
+                <Style BasedOn="{StaticResource trTabItemStyle}" TargetType="TabItem" />
+            </TabControl.Resources>
+            <!--  Your TabItems here  -->
+        </TabControl>
+
+        <!--  Text Editor  -->
+        <TextBox
+            Name="txtEdit"
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="10,15,10,10"
+            Padding="5"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            AcceptsReturn="True"
+            Background="#242526"
+            BorderThickness="0"
+            Foreground="White"
+            KeyDown="txtEdit_KeyDown"
+            PreviewKeyDown="txtEdit_PreviewKeyDown"
+            PreviewMouseWheel="txtEdit_PreviewMouseWheel"
+            TextWrapping="Wrap" />
+
+        <!--  File Explorer Panel  -->
+        <StackPanel
+            x:Name="explorPanel"
+            Grid.Row="2"
+            Grid.Column="0"
+            Width="200"
+            Height="600"
+            Margin="10,10,10,10"
+            HorizontalAlignment="Left"
+            Background="#202020">
+
+            <!--  File Explorer Button Panel  -->
+            <StackPanel
+                Margin="6,5,0,0"
+                HorizontalAlignment="Left"
+                Orientation="Horizontal">
+                <Button
+                    x:Name="btnOpen"
+                    Width="50"
+                    Height="25"
+                    Margin="0,0,10,0"
+                    Click="btnOpen_Click"
+                    Content="Open"
+                    FontSize="15"
+                    Style="{StaticResource trBtns}" />
+                <Button
+                    x:Name="btnNewFile"
+                    Width="50"
+                    Height="25"
+                    Margin="0,0,10,0"
+                    FontSize="15"
+                    Style="{StaticResource trBtns}">
+                    <StackPanel>
+                        <Image
+                            Height="20"
+                            Source="Icons/newFile.png"
+                            Stretch="Uniform" />
+                    </StackPanel>
+                </Button>
+                <Button
+                    x:Name="btnNewFolder"
+                    Width="50"
+                    Height="25"
+                    FontSize="15"
+                    Style="{StaticResource trBtns}">
+                    <StackPanel>
+                        <Image
+                            Height="20"
+                            Source="Icons/newFolder.png"
+                            Stretch="Uniform" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <TreeView
+                x:Name="folderTreeView"
+                Width="150"
+                Height="525"
+                Margin="20,20,50,0"
+                HorizontalAlignment="Center"
+                Background="#131313"
+                BorderBrush="#131313"
+                Foreground="White" />
+        </StackPanel>
+    </Grid>
+</Window>
